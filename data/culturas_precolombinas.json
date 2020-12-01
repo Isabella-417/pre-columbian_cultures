@@ -1,0 +1,132 @@
+{
+    "culturas": [
+        {
+            "nombre": "Mayas",
+            "ruta": "mayas",
+            "imagen_menu": "",
+            "ubicacion": {
+                "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_mayas.png",
+                "ubicacion": "Los mayas se ubicaron en la zona sur de México, donde a día de hoy se encuentra Guatemala, Belice, Honduras y el norte del Salvador, siendo las ciudades-estado más importantes Chichén Itzá, Tikal y Copán",
+                "organizacion_territorial": [
+                    {
+                        "nombre": "Zona norte",
+                        "ciudades": [
+                            "Norte Yucatán",
+                            "Estados de Campeche",
+                            "Quintana Roo"
+                        ],
+                        "caracteristicas": "Monte bajo, clima seco y cálido",
+                        "imagen": "https://centrourbano.com/revista/wp-content/uploads/Zonas-arqueologicas-de-Quintana-Roo-preparan-su-reapertura-735x400.jpg"
+                    },
+                    {
+                        "nombre": "Zona centro",
+                        "ciudades": [
+                            "Río Usumancinta",
+                            "Estados de Tabasco",
+                            "Honduras",
+                            "Petén guatemalteco",
+                            "Belice",
+                            "Chiapas"
+                        ],
+                        "caracteristicas": "Clima cálido y húmedo, además de vegetación tropical",
+                        "imagen": "https://one.cdnmega.com/images/viajes/covers/templos-cross-palenque-chiapas-mexico.jpg"
+                    },
+                    {
+                        "nombre": "Zona sur",
+                        "ciudades": [
+                            "Faja costera del Océano Pacífico",
+                            "Parte de Chiapas",
+                            "Guatemala",
+                            "El Salvador"
+                        ],
+                        "caracteristicas": "Clima templado y frío en las serranías, con zonas calientes y húmedas",
+                        "imagen": "https://viajes.nationalgeographic.com.es/medio/2018/03/15/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x720.jpg"
+                    }
+                ]
+            },
+            "gobernante": {
+                "nombre": "K'inich Janaab' Pakal",
+                "epoca": "Desde el año 615 hasta el 683",
+                "descripcion": "El gobierno de Pakal se caracterizó por haber impulsado el crecimiento de la obra arquitectónica de Palenque y por haber iniciado los registros jeroglíficos de su historia dinástica"
+            }
+        },
+        {
+            "nombre": "Incas",
+            "ruta": "incas",
+            "imagen_menu": "",
+            "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_incas.png",
+            "ubicacion": "El imperio incaico ocupó un vasto territorio de América del Sur, que comprenden las actuales o partes de los territorios de las Repúblicas de Perú, Ecuador, occidente de Bolivia, norte de Argentina, desde el norte de Chile al sur de Colombia.",
+            "organizacion_territorial": [
+                {
+                    "nombre": "Antisuyo (Este)",
+                    "ciudades": [],
+                    "caracteristicas": "Situado en lo alto del Amazonas, el Antisuyu tenía un entorno de selva tropical, marcado por abundantes lluvias, alto nivel de humedad y vegetación exuberante. Estaba colmado de recursos naturales, como coca, plantas medicinales, oro y plumas de aves exóticas. Por sus enfermedades de selva fluviales, y sus resistentes pueblos tribales, fue una región difícil de conquistar.",
+                    "imagen": "https://www.reportur.com/wp-content/uploads/2019/01/machu-picchu-limite-turistas.jpeg"
+                },
+                {
+                    "nombre": "Collasuyo (Sur)",
+                    "ciudades": [],
+                    "caracteristicas": "El Collasuyu abarcaba el sur de Perú y partes de Bolivia, Argentina y Chile. Colla significa altiplano. Su extensa puna era ideal para la cría de llamas y alpacas. La región también era rica en sal, papas, oro, plata y cobre.",
+                    "imagen": "https://www.rutainka.net/imagenes/2016/Quilmes.jpg"
+                },
+                {
+                    "nombre": "Chinchasuyo (Norte)",
+                    "ciudades": [],
+                    "caracteristicas": "El Chinchaysuyu abarcaba la región agrícola más importante del imperio. El territorio comprendía gran parte del actual Perú, Ecuador y una porción de Colombia. Su geografía de grandes valles abiertos, profundos cañones, mesetas elevadas, valles costeros y desiertos, presentaba numerosos desafíos para la construcción de caminos",
+                    "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ama_la_Vida_-_Flickr_-_Complejo_Arqueol%C3%B3gico_de_Ingapirca_%288227405796%29.jpg"
+                },
+                {
+                    "nombre": "Cuntisuyo (Oeste)",
+                    "ciudades": [],
+                    "caracteristicas": "El Contisuyu abastecía a los Inka de importantes recursos marinos. Aquí se elevan impresionantes barrancos desde el nivel del mar hasta 5.800 metros de altura. Con su relieve de imponentes picos, volcanes y desfiladeros, el Contisuyu presentaba complejos desafíos para los ingenieros de caminos Inka.",
+                    "imagen": "https://people.inf.elte.hu/zemuaai/cuntisuyo.jpg"
+                }
+            ],
+            "gobernante": {
+                "nombre": "Túpac Amaru I - también conocido como Felipe Túpac Amaru",
+                "epoca": "Período de Gobierno: 1570 – 1572",
+                "descripcion": "Tuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas"
+            }
+        },
+        {
+            "nombre": "Aztecas",
+            "ruta": "aztecas",
+            "imagen_menu": "",
+            "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_aztecas.png",
+            "ubicacion": "Los aztecas se situaron en el valle de México, es decir, en la zona central de México, siendo su capital Tenochtitlán (actual México D.C.), la ciudad lago; abarcaba además los territorios deTeotihuacán y por el sur llegaron hasta Palenque.",
+            "organizacion_territorial": [
+                {
+                    "nombre": "Estados Aliados",
+                    "ciudades": [
+                        "Teotitlan"
+                    ],
+                    "caracteristicas": "Teotitlán del Valle es un pueblo del estado de Oaxaca,Localizado a 30 Kilómetros de la Ciudad de Oaxaca, Teotitlán Del Valle se distingue y caracteriza por su destacada producción de tapetes de lana que sus habitantes elaboran a partir de una tradición ancestral.",
+                    "imagen": "https://www.ororadio.com.mx/noticias/wp-content/uploads/2019/04/teotitl%C3%A1n-del-valle-e1555950317273.jpg"
+                },
+                {
+                    "nombre": "Estados Centrales",
+                    "ciudades": [
+                        "Tenochtitlan"
+                    ],
+                    "caracteristicas": "se fundó en una pequeña isla en medio de un lago donde en 1325 los antepasados de los aztecas vieron un águila sobre un cactus, o nopal, comiéndose una serpiente; escena que vemos representada en el centro de la bandera mexicana",
+                    "imagen": "https://invdes.com.mx/wp-content/uploads/2019/11/09-11-19-Tenochtitlan.jpg"
+                },
+                {
+                    "nombre": "Estados Tributarios",
+                    "ciudades": [
+                        "Mixteca",
+                        "Tlaxcala",
+                        "Zapoteca"
+                    ],
+                    "caracteristicas": "Los primeros zapotecos eran sedentarios, vivían en asentamientos agrícolas, adoraban un panteón de dioses encabezados por el dios de la lluvia, Cocijo -representado por un símbolo de la fertilidad que combinaba los símbolos de la tierra-jaguar y del cielo-serpiente, símbolos comunes en las culturas mesoamericanas.",
+                    "imagen": "https://www.caracteristicas.co/wp-content/uploads/2017/03/cultura-zapoteca-e1565902080215.jpg"
+                }
+            ],
+            "gobernante": {
+                "nombre": "Túpac Amaru I - también conocido como Felipe Túpac Amaru",
+                "epoca": "Período de Gobierno: 1570 – 1572",
+                "descripcion": "Tuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas"
+            }
+        }
+    ]
+}
