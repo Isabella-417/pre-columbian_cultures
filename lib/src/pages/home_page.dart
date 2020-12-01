@@ -1,5 +1,12 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+
+import 'package:nuestros_ancestros/src/models/cultura.dart';
+import 'package:nuestros_ancestros/src/models/datos_cultura.dart';
 import 'package:nuestros_ancestros/src/providers/menu_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 
 class HomePage extends StatelessWidget {
   @override
@@ -23,10 +30,23 @@ class HomePage extends StatelessWidget {
     );
   }
 
+
   List<Widget> _listadoCulturas(List<dynamic> data, BuildContext context) {
     final List<Widget> opciones  = [];
+    final List<dynamic> data_json = [];
 
     data.forEach((element) {
+
+      dynamic datos = DatosCultura(
+        element["nombre"],
+        element["ubicacion"],
+        element["gobernante"],
+        element["imagen_menu"],
+      );
+
+      guardarInformacionCulturas(datos);
+
+
       final widgetTemp = ListTile(
         title: Text(element["nombre"]),
         leading: Icon( 
