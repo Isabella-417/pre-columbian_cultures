@@ -10,7 +10,7 @@ Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
     '/': (BuildContext context) => HomePage(),
     'mayas': (BuildContext context)=>  MayasPage(datosCultura: obtenerInformacionCultura("Mayas")) ,
-    'incas': (BuildContext context) => IncasPage(),
+    'incas': (BuildContext context) => IncasPage(datosCultura: obtenerInformacionCultura("Incas")),
     'aztecas': (BuildContext context) => AztecasPage()
   };
 }

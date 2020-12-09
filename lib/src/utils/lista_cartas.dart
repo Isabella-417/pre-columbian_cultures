@@ -8,10 +8,10 @@ class ListaCartas extends StatefulWidget {
 }
 
 class ListaCartasState extends State<ListaCartas> {
-  List<CartasView> cartas  = 
+  //List<CartasView> cartas =
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return ListView.builder(itemBuilder: (BuildContext context, int index) {});
+    return ListView.builder(itemBuilder: (BuildContext context, int index) {},);
   }
 }

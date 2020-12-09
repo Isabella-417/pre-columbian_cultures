@@ -82,6 +82,96 @@
                     }
                 }
             }
+        },
+
+        {
+            "nombre": "Incas",
+            "ruta": "incas",
+            "imagen_menu": "",
+            "tablero": {
+                "sociedad": {
+                    "introduccion": {
+                        "nombre": "Imperio Inca",
+                        "detalle": "El imperio incaico ocupó un vasto territorio de América del Sur, que comprenden las actuales o partes de los territorios de las Repúblicas de Perú, Ecuador, occidente de Bolivia, norte de Argentina, desde el norte de Chile al sur de Colombia.",
+                        "imagen": "https://historiaperuana.pe/wp-content/uploads/imperio-incaico.jpg"
+                    },
+                    "clases_sociales": {
+                        "Nobleza": {
+                            "detalle": "la nobleza constituida por el Inca, la coya, hijos legítimos, hermanos y descendientes por una sola línea imperial y solar. Constituían la panaca, que era la familia de cada inca, formaba un ayllu real.",
+                            "vestimenta": "Vestimenta : \n\nLa Nobleza utilizaba atuendos elaborados en algodon y utilizaban unas capas con gooros de plumas o tejidos de algodon y plumas, se les veia con bastones.",
+                            "imagen": "https://1.bp.blogspot.com/_p-lw2DO5BBU/Sw7otu1GlkI/AAAAAAAAAA0/a4nS3iR6DaA/s400/nobleza.JPG"
+                        },
+                        "Sacerdocio": {
+                            "detalle": "En el Tahuantinsuyo, el Sacerdote era un hombre que tenía que estar dotado de cierta investidura y espíritu, que sólo poseían determinados seres  y tenía que pertenecer a la nobleza cusqueña.",
+                            "vestimenta": "Vestimenta : \n\nLos sacerdotes vestian con atuendos y pantalnes, estos atuendos tenian hilos de oro para hacerlos as resistentes, tenian alajas como aretes, pulseras y coronas en oro, esta ultima tambien poseia plumas y en sus cuellos colgaban cadenas de oro y piedras preciosas",
+                            "imagen": "http://4.bp.blogspot.com/-ctmEmYn8Zr0/UJ8PrUal5RI/AAAAAAAAALk/G59qk1ZItqk/s400/Ritual-inca.jpg"
+                        },
+                        "Acllas": {
+                            "detalle": "Aclla quiere decir “escogida” o seleccionada. Eran las mujeres escogidas, cuando niñas, por su belleza; las reclutaban por todo el imperio y se les recogía en las acllahuasis. Existieron dos clases de acllas: Las que estaban dedicados exclusivamente al culto (auxiliares del sacerdocio) y las que eran escogidas para ser mujeres del Inca y los nobles",
+                            "vestimenta": "Vestimenta : \n\nLas Acllas vestian con bluzas hasta la mitad del abdomen y faldas largas qe dejaban ver su escultura corporal, también utlizaban diademas de oro en sus frentes  ",
+                            "imagen": "https://banderag.files.wordpress.com/2013/11/virgenes_del_sol.jpg?w=376&h=516"
+                        },
+                        "Pueblo": {
+                            "detalle": "En la base de todo el sistema social del incario se encontraba el pueblo, constituido básicamente por el hatunruna y el yanacona. \n\nEl Hatunruna: \n\nEran los hombres de los sectores populares, tanto quechuas, aymaras, etc., en su mayoría eran campesinos. Vivían en las zonas rurales, en pequeños poblados y eran cuidadosamente controlados por la administración estatal incaica. \n\nEl Yanacona: \n\nhombres asignados a servicios especiales. Era considerado súbdito directo del inca, ya no pertenecía a su ayllu y estaba exento de toda obligación correspondiente a su marka.",
+                            "vestimenta": "La vestimenta Inca femenina era muy sencilla consistía en una túnica que se colocaba sobre la cabeza y se ajustaba a la cintura con un lazo, encima llevaban una capa de lana de alpaca. Los hombres usaban un poncho tejido en alpaca llamado onka y túnicas o capas elaboradas con una colorida ornamentación, a ello, se sumaba el wara cocoy o taparrabo.",
+                            "imagen": "https://lanaveva.files.wordpress.com/2010/08/noticia_ii.jpg?w=640"
+                        }
+                    }
+                },
+                "dioses": {
+                    "mito": {
+                        "nombre": "Mito Inca de la Creación",
+                        "detalle": "El dios Viracocha, creó un mundo sin luz y dio vida a unos gigantes que no lo respetaron ni lo obedecieron. Disconforme con el resultado de su creación, Viracocha envió un diluvio que sumergió a la tierra transformándola completamente. Una vez que los gigantes desaparecieron, Viracocha decidió crear hombres pero de un tamaño semejante al suyo.",
+                        "imagen": "https://www.mitos-cortos.com/wp-content/uploads/mito-creacion-inca-434x600.jpg"
+                    },
+                    "lista_dioses": {
+                        "Dios Viracocha": {
+                            "detalle": "También conocido como Wiracocha es el dios creador, la esencia del origen y se le considera la primera divinidad por excelencia de los peruanos, en cuanto a su culto podemos decir que inicialmente estaba destinado exclusivamente a la nobleza. \n\nSe dice que surgió de las aguas y posteriormente creó el cielo y la tierra.",
+                            "imagen": "https://mitologia.guru/wp-content/uploads/2019/05/Viracocha.jpg.webp"
+                        },
+                        "Dios Inti": {
+                            "detalle": "hacía nacer las cosechas y brindaba seguridad a los humanos. \n\nInti era el dios sol; fuente de toda riqueza, rey del cielo, de las plantas, y el universo. se le consideraba además el ancestro del emperador sapa inca, que como representante suyo gobernaba con poder absoluto sobre el Tahuantinsuyo.",
+                            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStTDHsRes7dqB_meRF-Y05ZNopxCiW2YRI1g&usqp=CAU"
+                        },
+                        "Diosa Mama Quilla": {
+                            "detalle": "Diosa inca de la luna y la fertilidad, una divinidad madre de gran trascendencia para este imperio que ha sido catalogada como divinidad principal. El motivo de su presencia cumple también la misión de contrastarse con la fuerza masculina del sol y así manejar una simbología netamente relacionada con todos los aspectos de la mujer.",
+                            "imagen": "https://www.mitologia.info/wp-content/uploads/2017/04/mama-quilla-diosa-inca-de-la-fertilidad.jpg"
+                        }
+                    }
+                },
+                "ubicacion": {
+                    "gobernante": {
+                        "nombre": "Túpac Amaru I",
+                        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TupacamaruI.JPG/245px-TupacamaruI.JPG",
+                        "detalle": "Último gobernante (1570 – 1572) también conocido como Felipe Túpac Amaru. \n\nTuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas."
+                    },
+                    "ubicacion": {
+                        "nombre": "Regiones Mayas",
+                        "detalle": "Los mayas se ubicaron en la zona sur de México, donde a día de hoy se encuentra Guatemala, Belice, Honduras y el norte del Salvador, siendo las ciudades-estado más importantes Chichén Itzá, Tikal y Copán. \n\n Algunos lugares importantes son : \n\n 1)El Templo de las Inscripciones, el responsable de su levantamiento es el rey Pakal, que estuvo en el trono de 615 a 683 E.C. El nombre de este templo se debe a las inscripciones que decoran el santuario superior que cuentan la vida de este monarca.\n\n2) El Templo de Quetzalcoatl: \n\n Su construcción data de 150 a 250 E.C. Como el nombre indica, está dedicado al dios Quetzacoatl y es uno de los más majestuosos de todos los templos. Varios investigadores piensan que todo el edificio es una representación de la cosmogonía local, donde la Serpiente Emplumada, es decir, Quetzacoatl, era considerada como la divinidad principal.",
+                        "imagen": "https://t1.up.ltmcdn.com/es/images/1/2/0/img_aztecas_y_mayas_diferencias_principales_2021_orig.jpg"
+                    },
+                    "organizacion_territorial": {
+                        "Antisuyu": {
+                            "detalle": "Ubicado al Este en parte de la amazonia de Sudamérica como lo evidencian los topónimos, usos y costumbres de esas regiones. Comprendió principalmente parte de las yungas y ceja de montaña donde dejaron huellas como la construcción de Machu Picchu, de las cuencas de los ríos Urubamba y Madre de Dios.",
+                            "imagen": "https://www.circuitoanta.com/images/tours/trilhaincaantisuyo3.jpg"
+                        },
+                        "Collasuyo": {
+                            "detalle": "Se extendía al sur de Cuzco (Perú), desde los Andes y el altiplano de Bolivia, hasta la ribera norte del río Maule (Chile), y desde las costas del Pacífico hasta los llanos de Santiago del Estero (Argentina).",
+                            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3wTB4dD056Pkhount4ugXGVlhL4XF-n63Iw&usqp=CAU"
+                        },
+                        "Chinchaysuyo": {
+                            "detalle": "El Chinchaysuyo ubicado al norte abarcaba las antiguas tierras del Imperio Chimú y gran parte de los Andes del norte. En su mayor extensión, comprendía la región norte del imperio, desde el occidente de la ciudad del Cuzco y la actual provincia peruana de Caravelí (Arequipa) en la costa; hasta Pasto (Colombia), abarcando parte del departamento colombiano de Nariño, todo el Ecuador salvo la región oriental y los departamentos peruanos",
+                            "imagen": "https://www.iperu.org/wp-content/uploads/2018/12/division-territorial-del-imperio-inca-los-suyos.jpg"
+                        },
+                        "Cuntisuyo": {
+                            "detalle": "Conformado por Faja costera del Océano Pacífico, Parte de Chiapas, Guatemala y El Salvador.\n\nClima templado y frío en las serranías, con zonas calientes y húmedas",
+                            "imagen": "https://us.123rf.com/450wm/vitmark/vitmark1312/vitmark131200142/24370471-ca%C3%B1%C3%B3n-del-colca-per%C3%BA-am%C3%A9rica-del-sur-incas-para-construir-terrazas-de-cultivo-con-estanque-y-cliff-uno-de-l.jpg?ver=6"
+                        }
+                    }
+                }
+            }
         }
+
+    
     ]
 }
