@@ -4,132 +4,83 @@
             "nombre": "Mayas",
             "ruta": "mayas",
             "imagen_menu": "",
-            "ubicacion": {
-                "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_mayas.png",
-                "ubicacion": "Los mayas se ubicaron en la zona sur de México, donde a día de hoy se encuentra Guatemala, Belice, Honduras y el norte del Salvador, siendo las ciudades-estado más importantes Chichén Itzá, Tikal y Copán",
-                "organizacion_territorial": [
-                    {
-                        "nombre": "Zona norte",
-                        "ciudades": [
-                            "Norte Yucatán",
-                            "Estados de Campeche",
-                            "Quintana Roo"
-                        ],
-                        "caracteristicas": "Monte bajo, clima seco y cálido",
-                        "imagen": "https://centrourbano.com/revista/wp-content/uploads/Zonas-arqueologicas-de-Quintana-Roo-preparan-su-reapertura-735x400.jpg"
+            "tablero": {
+                "sociedad": {
+                    "introduccion": {
+                        "nombre": "Sociedad Maya",
+                        "detalle": "La sociedad maya contaba en cada ciudad-estado con una máxima autoridad, de carácter hereditario, llamado halach-uinic o hombre de verdad, que era asistido por un consejo de notables, compuesto por los principales jefes y sacerdotes",
+                        "imagen": "https://mundoantiguo.net/wp-content/uploads/2020/09/image-6.png"
                     },
-                    {
-                        "nombre": "Zona centro",
-                        "ciudades": [
-                            "Río Usumancinta",
-                            "Estados de Tabasco",
-                            "Honduras",
-                            "Petén guatemalteco",
-                            "Belice",
-                            "Chiapas"
-                        ],
-                        "caracteristicas": "Clima cálido y húmedo, además de vegetación tropical",
-                        "imagen": "https://one.cdnmega.com/images/viajes/covers/templos-cross-palenque-chiapas-mexico.jpg"
-                    },
-                    {
-                        "nombre": "Zona sur",
-                        "ciudades": [
-                            "Faja costera del Océano Pacífico",
-                            "Parte de Chiapas",
-                            "Guatemala",
-                            "El Salvador"
-                        ],
-                        "caracteristicas": "Clima templado y frío en las serranías, con zonas calientes y húmedas",
-                        "imagen": "https://viajes.nationalgeographic.com.es/medio/2018/03/15/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x720.jpg"
+                    "clases_sociales": {
+                        "Nobles": {
+                            "detalle": "Los nobles o almenehoob , era el grupo privilegiado y monopolizaba el poder. Los sacerdotes,  llamados ahkincob, supremo sacerdote recibían el nombre de Ahuacán, que significa 'señor serpiente'.\n\n Sus actividades se relacionaban con los rituales, los sacrificios, y  la astronomía.Tanto las artes como las ciencias eran dominadas por la clase sacerdotal.\n\n Debajo del sumo sacerdote se hallaban los ahkim, encargados de los discursos religiosos, los chilan (adivinos) y los Ahmen (hechiceros, brujos)",
+                            "vestimenta": "Vestimenta : \n\nLa nobleza utilizaba atuendos con plumas y gemas, calzaba sandalias de cuero y lucía grandes plumas, además de collares, pectorales y pesados cinturones de nácar y piedras grabadas. Otras prendas comunes entre los nobles fueron faldas, capas cortas o largas, chaquetas (generalmente de piel de jaguar o algodón), adornos de conchas, caracoles y diseños geométricos.Solían usar muchos adornos en la cabeza, para darle colorido a los pelos: pañuelos, diademas, sombreros, gorros y otros.",
+                            "imagen": "https://image.freepik.com/vector-gratis/ilustracion-dibujos-animados-maya_1284-26338.jpg"
+                        },
+                        "Comerciantes": {
+                            "detalle": "Recorrían los caminos a pie, o por medio de verdaderos comerciantes profesionales que trasladaban las mercancías en canoas a lo largo de la costa y a lo largo de los ríos.\n\n Eran hombres cultos, con conocimiento de las condiciones geográficas, económicas, políticas y culturales. (Conocían los productos de mayor demanda, su valor y las áreas productoras. \n\nPodían entrar a regiones restringidas en busca de materias primas y objetos) Estaban organizados y formaban parte de una importante clase económica y social, y habitaban en barrios exclusivos. \n\n Poseían riquezas, bienes territoriales y esclavos.",
+                            "vestimenta": "Vestimenta : \n\nLas mujeres usaban una falda o huipil con un manto en el torso, de acuerdo a su jerarquía las faldas eran coloridas con bordados brillantes y los peinados bien elaborados, además de adornar sus cuerpos y pintarse la cara. Mientras que los hombres se vestían únicamente con un tipo de taparrabos llamado patí, el cual era decorado de acuerdo a la clase social, aunque su indumentaria mejoraba a medida que demostraban sus habilidades. ",
+                            "imagen": "https://image.freepik.com/vector-gratis/antecedentes-familiares-mayas_1284-26341.jpg"
+                        },
+                        "Artesanos": {
+                            "detalle": "Los artesanos y campesinos constituían la clase inferior (ah chembal uinicoob), se dedicaban al trabajo agrícola y a la construcción de obras públicas, pagaban impuestos a las autoridades civiles y religiosas. Vivían a bastante distancia del centro de las ciudades, pero cerca de los terrenos de cultivo. Vivían de la agricultura y la caza. \n\nEl pueblo se ocupaba de las más variadas y pesadas tareas productivas, como las agrícolas, la caza y la artesanía dirigi­da a la vida y que­haceres cotidianos Su trabajo permitió la construcción de pirámides, templos, palacios y otros monumentos",
+                            "vestimenta": "",
+                            "imagen": "https://image.freepik.com/vector-gratis/conjunto-simbolos-aztecas-mayas-piramide-antigua-guerrero-inca-mascaras-etnicas-dioses-e-idolos-artefactos-ilustraciones-vectoriales-planas-cultura-mexicana-concepto-decoraciones-tradicionales_74855-9804.jpg"
+                        },
+                        "Esclavos": {
+                            "detalle": "Prisioneros de guerra que eran vendidos para hacer trabajos o para ser sacrificados en determinados rituales a la lluvia, la tierra o el sol.",
+                            "vestimenta": "",
+                            "imagen": "https://static4.depositphotos.com/1011850/285/v/950/depositphotos_2854449-stock-illustration-mayan-king-and-prisoners.jpg"
+                        }
                     }
-                ]
-            },
-            "gobernante": {
-                "nombre": "K'inich Janaab' Pakal",
-                "epoca": "Desde el año 615 hasta el 683",
-                "descripcion": "El gobierno de Pakal se caracterizó por haber impulsado el crecimiento de la obra arquitectónica de Palenque y por haber iniciado los registros jeroglíficos de su historia dinástica"
-            }
-        },
-        {
-            "nombre": "Incas",
-            "ruta": "incas",
-            "imagen_menu": "",
-            "ubicacion": {
-                "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_incas.png",
-                "ubicacion": "El imperio incaico ocupó un vasto territorio de América del Sur, que comprenden las actuales o partes de los territorios de las Repúblicas de Perú, Ecuador, occidente de Bolivia, norte de Argentina, desde el norte de Chile al sur de Colombia.",
-                "organizacion_territorial": [
-                    {
-                        "nombre": "Antisuyo (Este)",
-                        "ciudades": [],
-                        "caracteristicas": "Situado en lo alto del Amazonas, el Antisuyu tenía un entorno de selva tropical, marcado por abundantes lluvias, alto nivel de humedad y vegetación exuberante. Estaba colmado de recursos naturales, como coca, plantas medicinales, oro y plumas de aves exóticas. Por sus enfermedades de selva fluviales, y sus resistentes pueblos tribales, fue una región difícil de conquistar.",
-                        "imagen": "https://www.reportur.com/wp-content/uploads/2019/01/machu-picchu-limite-turistas.jpeg"
+                },
+                "dioses": {
+                    "mito": {
+                        "nombre": "El mito de la codorniz",
+                        "detalle": "En aquellos tiempos, cuando los animales apenas acababan de formarse, la codorniz era el ave favorita de los dioses. Estaba dotada de un bellísimo plumaje, un copetito coquetón adornaba su altiva cabeza, y le era permitido construir sus nidos en las copas de los árboles, para proteger a sus pequeñuelos de las asechanzas de fieras y cazadores. Así fue como su familia se hizo cada vez más.\n\nCualquier otro ser viviente hubiera estado muy agradecido por esos privilegios; pero la codorniz ofuscada en su egoísmo, no se daba por satisfecha. En su fuero interno, abrigaba la esperanza de poseer algún día un mundo entero, en el cual sólo vivirían ella y su numerosa prole.\n\nEn una ocasión, el bondadoso Gran Espíritu sintió deseos de visitar la tierra, anhelaba contemplar nuevamente el mundo que había ayudado a crear. Entonces, invitó a Yaa-Kin, el príncipe del Sol, para que lo acompañara en su viaje y, tomando forma humana, descendió hasta llegar a la tierra.\n\n La noticia de esta visita hizo que Box-Buc, el príncipe de las Tinieblas, se tornase negro de envidia. Y juró vengarse haciendo fracasar los planes de los viajeros.\n\nCon esa finalidad, envió a sus espías a seguir la pista de los forasteros, y se sentó en su trono de ébano para aguardar los resultados de sus maquinaciones.\n\nSin embargo, tan pronto como los visitantes entraron en la selva, los buenos genios del monte, se dieron cuenta de la presencia de los espías, y juraron proteger a sus huéspedes.\n\nContrariados por los constantes fracasos de sus planes, los espías decidieron interrogar a las aves, dulcificando su áspera y desagradable voz todo lo que les fue posible.\n\nSin embargo, con aquellas fingidas voces, no lograron engañar a los astutos pajaritos. Y todos se rehusaron a darle información alguna, excepto Bech, que ambicionaba un mundo para ella.\n\nLa egoísta codorniz le dio instrucciones en secreto a su prole. Y cuando los divinos visitantes se aproximaron, la numerosa familia de la codorniz levantó el vuelo, produciendo un gran estruendo, que hizo a los viajeros detenerse a investigar, todo lo cual permitió a los espías ubicarlos.\n\nEl Gran Espíritu sintió honda pena al darse cuenta de la perversa estratagema de Box-Buc; pero al reconocer en el ave delatora a la codorniz, precisamente a la que él había amado tanto, lágrimas de desengaño brotaron de sus ojos, y sentenció: «Traicionera Bech, de hoy en adelante, tú y todos los tuyos quedarán a merced de las fieras y cazadores, pues cerca de la tierra vivirán para siempre».",
+                        "imagen": "http://avesdesierramorena.sierramorena.com/wp-content/uploads/2012/09/codorniz.jpg"
                     },
-                    {
-                        "nombre": "Collasuyo (Sur)",
-                        "ciudades": [],
-                        "caracteristicas": "El Collasuyu abarcaba el sur de Perú y partes de Bolivia, Argentina y Chile. Colla significa altiplano. Su extensa puna era ideal para la cría de llamas y alpacas. La región también era rica en sal, papas, oro, plata y cobre.",
-                        "imagen": "https://www.rutainka.net/imagenes/2016/Quilmes.jpg"
-                    },
-                    {
-                        "nombre": "Chinchasuyo (Norte)",
-                        "ciudades": [],
-                        "caracteristicas": "El Chinchaysuyu abarcaba la región agrícola más importante del imperio. El territorio comprendía gran parte del actual Perú, Ecuador y una porción de Colombia. Su geografía de grandes valles abiertos, profundos cañones, mesetas elevadas, valles costeros y desiertos, presentaba numerosos desafíos para la construcción de caminos",
-                        "imagen": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ama_la_Vida_-_Flickr_-_Complejo_Arqueol%C3%B3gico_de_Ingapirca_%288227405796%29.jpg"
-                    },
-                    {
-                        "nombre": "Cuntisuyo (Oeste)",
-                        "ciudades": [],
-                        "caracteristicas": "El Contisuyu abastecía a los Inka de importantes recursos marinos. Aquí se elevan impresionantes barrancos desde el nivel del mar hasta 5.800 metros de altura. Con su relieve de imponentes picos, volcanes y desfiladeros, el Contisuyu presentaba complejos desafíos para los ingenieros de caminos Inka.",
-                        "imagen": "https://people.inf.elte.hu/zemuaai/cuntisuyo.jpg"
+                    "lista_dioses": {
+                        "Dios Kukulkán": {
+                            "detalle": "En lengua maya significa 'serpiente emplumada'. \n\nEn la mitología maya, Kukulkán es el dios de las tempestades. Creó vida por medio del agua y enseñó a los hombres a producir fuego. \n\nEs conocido también por: Qucumatz, Cuculcán o Kukulkán.",
+                            "imagen": "https://blog.xcaret.com/es/wp-content/uploads/2020/06/Dios-Maya-Kukulcán-México-Xcaret-1024x1024.jpg"
+                        },
+                        "Dios Itzamná": {
+                            "detalle": "A menudo es representado como un anciano desdentado y con una gran nariz.\n\nFue hijo del dios creador Hunab Ku y se le relacionaba a veces con el dios del sol Kinich Ahau al igual que con la diosa Ix Chel. \n\nAlrededor de él existen muchas historias y mitos, ya que se le consideraba un héroe cultural porqué su enseñanza contribuyo al cultivo del maíz, la creación de calendarios y el descubrimiento de la medicina maya.",
+                            "imagen": "https://blog.xcaret.com/es/wp-content/uploads/2020/06/Dios-Maya-Itzamná-Xcaret-Yucatán-1024x1024.jpg"
+                        },
+                        "Dios Kinich Ahau": {
+                            "detalle": "El Dios del Sol de la cultura maya, es a menudo representado por un jaguar, águila o venado; animales que representaban el poder. \n\nSe dice que era generador de luz, del tiempo, el calor y de los cuatro rumbos que tenía el universo en su vasta extensión. \n\nSin embargo, una de las imágenes más cotidianas de este gran dios era el de un viejo con una nariz prominente ataviado de prendas de gran valor, con un gesto de burla y los ojos bizcos.",
+                            "imagen": "https://blog.xcaret.com/es/wp-content/uploads/2020/06/Dios-Maya-Kinich-Ahau-Yucatán-Xcaret-1024x1024.jpg"
+                        }
                     }
-                ]
-            },
-            "gobernante": {
-                "nombre": "Túpac Amaru I - también conocido como Felipe Túpac Amaru",
-                "epoca": "Período de Gobierno: 1570 – 1572",
-                "descripcion": "Tuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas"
-            }
-        },
-        {
-            "nombre": "Aztecas",
-            "ruta": "aztecas",
-            "imagen_menu": "",
-            "imagen_ubicacion_general": "/imagenes/ubicaciones/ubicacion_general_aztecas.png",
-            "ubicacion": {
-                "ubicacion": "Los aztecas se situaron en el valle de México, es decir, en la zona central de México, siendo su capital Tenochtitlán (actual México D.C.), la ciudad lago; abarcaba además los territorios deTeotihuacán y por el sur llegaron hasta Palenque.",
-                "organizacion_territorial": [
-                    {
-                        "nombre": "Estados Aliados",
-                        "ciudades": [
-                            "Teotitlan"
-                        ],
-                        "caracteristicas": "Teotitlán del Valle es un pueblo del estado de Oaxaca,Localizado a 30 Kilómetros de la Ciudad de Oaxaca, Teotitlán Del Valle se distingue y caracteriza por su destacada producción de tapetes de lana que sus habitantes elaboran a partir de una tradición ancestral.",
-                        "imagen": "https://www.ororadio.com.mx/noticias/wp-content/uploads/2019/04/teotitl%C3%A1n-del-valle-e1555950317273.jpg"
+                },
+                "ubicacion": {
+                    "gobernante": {
+                        "nombre": "K'inich Janaab' Pakal",
+                        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/PacalII.svg/1200px-PacalII.svg.png",
+                        "detalle": "Desde el año 615 hasta el 683. \n\nEl gobierno de Pakal se caracterizó por haber impulsado el crecimiento de la obra arquitectónica de Palenque y por haber iniciado los registros jeroglíficos de su historia dinástica"
                     },
-                    {
-                        "nombre": "Estados Centrales",
-                        "ciudades": [
-                            "Tenochtitlan"
-                        ],
-                        "caracteristicas": "se fundó en una pequeña isla en medio de un lago donde en 1325 los antepasados de los aztecas vieron un águila sobre un cactus, o nopal, comiéndose una serpiente; escena que vemos representada en el centro de la bandera mexicana",
-                        "imagen": "https://invdes.com.mx/wp-content/uploads/2019/11/09-11-19-Tenochtitlan.jpg"
+                    "ubicacion": {
+                        "nombre": "Regiones Mayas",
+                        "detalle": "Los mayas se ubicaron en la zona sur de México, donde a día de hoy se encuentra Guatemala, Belice, Honduras y el norte del Salvador, siendo las ciudades-estado más importantes Chichén Itzá, Tikal y Copán. \n\n Algunos lugares importantes son : \n\n 1)El Templo de las Inscripciones, el responsable de su levantamiento es el rey Pakal, que estuvo en el trono de 615 a 683 E.C. El nombre de este templo se debe a las inscripciones que decoran el santuario superior que cuentan la vida de este monarca.\n\n2) El Templo de Quetzalcoatl: \n\n Su construcción data de 150 a 250 E.C. Como el nombre indica, está dedicado al dios Quetzacoatl y es uno de los más majestuosos de todos los templos. Varios investigadores piensan que todo el edificio es una representación de la cosmogonía local, donde la Serpiente Emplumada, es decir, Quetzacoatl, era considerada como la divinidad principal.",
+                        "imagen": "https://t1.up.ltmcdn.com/es/images/1/2/0/img_aztecas_y_mayas_diferencias_principales_2021_orig.jpg"
                     },
-                    {
-                        "nombre": "Estados Tributarios",
-                        "ciudades": [
-                            "Mixteca",
-                            "Tlaxcala",
-                            "Zapoteca"
-                        ],
-                        "caracteristicas": "Los primeros zapotecos eran sedentarios, vivían en asentamientos agrícolas, adoraban un panteón de dioses encabezados por el dios de la lluvia, Cocijo -representado por un símbolo de la fertilidad que combinaba los símbolos de la tierra-jaguar y del cielo-serpiente, símbolos comunes en las culturas mesoamericanas.",
-                        "imagen": "https://www.caracteristicas.co/wp-content/uploads/2017/03/cultura-zapoteca-e1565902080215.jpg"
+                    "organizacion_territorial": {
+                        "Zona norte": {
+                            "detalle": "Conformado por Norte Yucatán, Estados de Campeche y Quintana Roo. \n\n Monte bajo, clima seco y cálido.",
+                            "imagen": "https://arte.laguia2000.com/wp-content/uploads/2014/07/DSC00207-500x375.jpg"
+                        },
+                        "Zona centro": {
+                            "detalle": "Conformado por Río Usumancinta, Estados de Tabasco, Honduras, Petén guatemalteco, Belice y Chiapas.\n\n Clima cálido y húmedo, además de vegetación tropical",
+                            "imagen": "https://one.cdnmega.com/images/viajes/covers/templos-cross-palenque-chiapas-mexico.jpg"
+                        },
+                        "Zona sur": {
+                            "detalle": "Conformado por Faja costera del Océano Pacífico, Parte de Chiapas, Guatemala y El Salvador.\n\nClima templado y frío en las serranías, con zonas calientes y húmedas",
+                            "imagen": "https://viajes.nationalgeographic.com.es/medio/2018/03/15/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x720.jpg"
+                        }
                     }
-                ]
-            },
-            "gobernante": {
-                "nombre": "Túpac Amaru I - también conocido como Felipe Túpac Amaru",
-                "epoca": "Período de Gobierno: 1570 – 1572",
-                "descripcion": "Tuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas"
+                }
             }
         }
     ]

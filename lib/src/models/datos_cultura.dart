@@ -1,28 +1,34 @@
 class DatosCultura {
   String nombre;
   String imagenMenu;
-  Map<String, dynamic> ubicacion;
-  Map<String, dynamic> gobernador;
+  String mito;
 
-  DatosCultura(nombre, ubicacion, gobernador, imagenMenu){
+  Map<String, dynamic> ubicacion;
+  Map<String, dynamic> dioses;
+  Map<String, dynamic> sociedad;
+
+  DatosCultura(nombre, ubicacion, sociedad, dioses, imagenMenu) {
     this.nombre = nombre;
     this.ubicacion = ubicacion;
-    this.gobernador = ubicacion;
+    this.sociedad = sociedad;
+    this.dioses = dioses;
     this.imagenMenu = imagenMenu;
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = Map<String, dynamic>();
     data['nombre'] = this.nombre;
+    data['mito'] = this.mito;
     data["imagenMenu"] = this.imagenMenu;
+
     data['ubicacion'] = this.ubicacion;
-    data['gobernador'] = this.gobernador;
+    data['sociedad'] = this.sociedad;
+    data['dioses'] = this.dioses;
     return data;
   }
 
-
-    @override
+  @override
   String toString() {
-    return '"nombre" : { "imagenMenu": $imagenMenu,  "nombre": $nombre, "ubicacion": $ubicacion, "gobernador": $gobernador}';
+    return '"nombre" : { mito": $mito, "sociedad": $sociedad,  "dioses": $dioses, "ubicacion": $ubicacion}';
   }
 }
