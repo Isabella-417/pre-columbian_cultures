@@ -3,7 +3,7 @@
         {
             "nombre": "Mayas",
             "ruta": "mayas",
-            "imagen_menu": "",
+            "imagen_menu": "https://image.freepik.com/vector-gratis/postal-cultura-maya_24640-15679.jpg",
             "tablero": {
                 "sociedad": {
                     "introduccion": {
@@ -87,7 +87,7 @@
         {
             "nombre": "Incas",
             "ruta": "incas",
-            "imagen_menu": "",
+            "imagen_menu": "https://lh3.googleusercontent.com/VyXtO5LqAkRG1Ku58w2_PJSW2oU-P4R_DI6KnGpujBZfo6Qreu1RzQ4m7bt0a0bXrIPF=s85",
             "tablero": {
                 "sociedad": {
                     "introduccion": {
@@ -146,9 +146,9 @@
                         "detalle": "Último gobernante (1570 – 1572) también conocido como Felipe Túpac Amaru. \n\nTuvo que combatir cruentas batallas con los españoles por el control de Vilcabamba desde donde huyó ante una inminente derrota. Fue capturado junto a su esposa y ejecutado en la Plaza de Armas de Cusco. Su muerte significó el fin de los incas rebeldes de Vilcabamba y de los gobernantes incas."
                     },
                     "ubicacion": {
-                        "nombre": "Regiones Mayas",
-                        "detalle": "Los mayas se ubicaron en la zona sur de México, donde a día de hoy se encuentra Guatemala, Belice, Honduras y el norte del Salvador, siendo las ciudades-estado más importantes Chichén Itzá, Tikal y Copán. \n\n Algunos lugares importantes son : \n\n 1)El Templo de las Inscripciones, el responsable de su levantamiento es el rey Pakal, que estuvo en el trono de 615 a 683 E.C. El nombre de este templo se debe a las inscripciones que decoran el santuario superior que cuentan la vida de este monarca.\n\n2) El Templo de Quetzalcoatl: \n\n Su construcción data de 150 a 250 E.C. Como el nombre indica, está dedicado al dios Quetzacoatl y es uno de los más majestuosos de todos los templos. Varios investigadores piensan que todo el edificio es una representación de la cosmogonía local, donde la Serpiente Emplumada, es decir, Quetzacoatl, era considerada como la divinidad principal.",
-                        "imagen": "https://t1.up.ltmcdn.com/es/images/1/2/0/img_aztecas_y_mayas_diferencias_principales_2021_orig.jpg"
+                        "nombre": "Imperio Inca",
+                        "detalle": "Ubicado en América del Sur, que comprenden las actuales o partes de los territorios de las Repúblicas de Perú, Ecuador, occidente de Bolivia, norte de Argentina, desde el norte de Chile al sur de Colombia. El imperio estaba dividido en 4 regiones llamado suyos: el Antisuyo al este; el Collasuyo, al sur; el Chinchasuyo, al norte y el Cuntisuyo, al oeste.",
+                        "imagen": "https://www.iperu.org/wp-content/uploads/2018/12/division-territorial-del-imperio-inca-los-suyos.jpg"
                     },
                     "organizacion_territorial": {
                         "Antisuyu": {
@@ -161,7 +161,7 @@
                         },
                         "Chinchaysuyo": {
                             "detalle": "El Chinchaysuyo ubicado al norte abarcaba las antiguas tierras del Imperio Chimú y gran parte de los Andes del norte. En su mayor extensión, comprendía la región norte del imperio, desde el occidente de la ciudad del Cuzco y la actual provincia peruana de Caravelí (Arequipa) en la costa; hasta Pasto (Colombia), abarcando parte del departamento colombiano de Nariño, todo el Ecuador salvo la región oriental y los departamentos peruanos",
-                            "imagen": "https://www.iperu.org/wp-content/uploads/2018/12/division-territorial-del-imperio-inca-los-suyos.jpg"
+                            "imagen": "https://pbs.twimg.com/media/DZyjNx5WsAEXf6r.jpg"
                         },
                         "Cuntisuyo": {
                             "detalle": "Conformado por Faja costera del Océano Pacífico, Parte de Chiapas, Guatemala y El Salvador.\n\nClima templado y frío en las serranías, con zonas calientes y húmedas",
@@ -170,8 +170,82 @@
                     }
                 }
             }
-        }
+        },
 
-    
+        {
+            "nombre": "Aztecas",
+            "ruta": "aztecas",
+            "imagen_menu": "",
+            "tablero": {
+                "sociedad": {
+                    "introduccion": {
+                        "nombre": "Imperio Azteca",
+                        "detalle": "El Imperio Azteca también llamado, de forma correcta, som anawak Triple alianza, Imperio mexica o Imperio tenochca fue una entidad de control territorial, político y económico que existió en la zona central de Mesoamérica, durante el Posclásico Tardío, antes de la Conquista española. Formalmente, estaba integrada por los dominios de la Triple Alianza,​ conformada por Texcoco, Tlacopan y México-Tenochtitlan. En los hechos, la mayor parte de los territorios bajo el dominio de los altépetl coaligados pertenecían a los mexicas.",
+                        "imagen": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/16358288/image/original-5c834555b8201de1799b9da4f464e2c0.png"
+                    },
+                    "clases_sociales": {
+                        "Tlatoani": {
+                            "detalle": "El tlatoani era elegido como gobernante por los grupos nobles, y él mismo provenía de una familia o dinastía de gobernantes. Esto se debía a la fuertemente estratificada estructura social de los pueblos mesoamericanos. Como tal, era el máximo gobernante, reunía gran poder en sus manos y compartía sus funciones de gobierno con las militares y religiosas. Cuando tenía bajo su dominio no una, sino varias ciudades, como fue el caso de los mexicas, era denominado huey tlatoani, que significa ‘gran gobernante’.",
+                            "vestimenta": "Vestimenta : \n\n El gobernante vestia con una gran capa, un pantalon corto de algodon con brazaletes de oro y sandalias, ademas, contaba con una gran corona de plumas y oro, su baston tambien emplumado asi como un collar bastante grande hacian parte de su vestuario.",
+                            "imagen": "https://lh3.googleusercontent.com/proxy/VcBmLCsy93Din-SQVmb3IUAIakevsS1qNhTlbjJWwlII2JyzPbJSnp1BMj6Iu3Y4nBDGOiTG-zLtJT3zICMVycqvE4ICvYdRRGm6wuYJYAobPClqT1-3lz0AnKcXUHzhDZdwa0MtX6a05gfYxc6byqdY6ri2QQpRsF3kRefrIByH0YjaSzs-_pfEJ5TPcXw8wxFSy6WCB8FW2HzZUQ"
+                        },
+                        "Pipiltin": {
+                            "detalle": "Los Pipiltin eran los nobles, miembros de los clanes fundadores de Tenochtitlán. Poseían tierras en forma individual, estaban exonerados de pagar tributo y podían tener muchas esposas.",
+                            "vestimenta": "Vestimenta : \n\nUtilizaban mantos grandes y tapa rabos largos, tenian sandalias que asu vez cubrian la pantorrilla, unos gorros en algodon y oro, alguno brazaletes en oro, un cetro con plumas y un tipo de escudo redondo en algodon y plumas.",
+                            "imagen": "https://i.pinimg.com/600x315/23/b6/62/23b6623bc884af65d2e4395b6c13dbdc.jpg"
+                        },
+                        "Pochtecas": {
+                            "detalle": "Los Pochtecas eran comerciantes que habían alcanzado un estatus especial por sus riquezas. Podían tener tierras en forma individual y disfrutaban de ritos y costumbres exclusivos de su gremio.",
+                            "vestimenta": "Vestimenta : \n\nVestian de capa y tapa rabos medianos, tenian gorros de algodon y algunas plumas con aretes, pulseras en las pantorrilas de algodon y herrajes de oro.",
+                            "imagen": "https://i.pinimg.com/originals/ef/e3/e1/efe3e1bcf62c8fb8e1c94efda4780341.jpg"
+                        },
+                        "Macehuales": {
+                            "detalle": "Los Macehuales eran los hombres del pueblo, miembros de los calpullis o comunidades. Se dedicaban principalmente a la agricultura o las artesanías. Trabajaban en las tierras colectivas de sus calpullis, pagaban tributos al Estado y cumplían con el servicio militar obligatorio",
+                            "vestimenta": "Vestimenta : \n\nVestian con batas y ruanas de algodon o pieles, con sandalias siples y uno que otro gorro con pocas plumas.",
+                            "imagen": "https://mas-mexico.com.mx/wp-content/uploads/2019/08/162fd7b60be5633212b73a87493f9e15.jpg"
+                        },
+                        "tlatlacotin": {
+                            "detalle": "Los eran tlatlacotin los esclavos obtenidos en las guerras, los condenados por la justicia o los sometidos voluntariamente para saldar una deuda. Podían recuperar su libertad. Ellos mismos o sus parientes podían pagar su rescate. Los hijos de los tlatlacotin no heredan su condición de esclavos.",
+                            "vestimenta": "",
+                            "imagen": "https://blogs.ua.es/aztecasml/files/2011/12/images.jpg"
+                        }
+                    }
+                },
+                "dioses": {
+                    "mito": {
+                        "nombre": "Leyenda Quetzalcóatl",
+                        "detalle": "Cuenta la leyenda que cuando se creó el mundo, los dioses y los seres humanos vivían felices y en armonía. Sin embargo, el único que no estaba contento era el dios Quetzalcóatl, quien veía como los dioses se aprovechaban de los seres humanos, se sentían superiores y los hacían menos. Molesto con esta situación, Quetzalcóatl decidió transformarse en ser humano para compartirles a las personas toda la sabiduría y conocimientos que los dioses poseían. \nAl llegar al mundo de los humanos viajó por muchas tierras hasta llegar a la ciudad de Tollan, donde encontró a sus pobladores haciendo un sacrificio dedicado a su hermano Tezcatlipoca. Al observar este acontecimiento, detuvo el sacrificio y les explicó que él venía a ofrecerles una ciudad eterna, llena de flores y buena vida. \nDe pronto el cielo se despejó, las nubes desaparecieron y salió el sol. Quetzalcóatl les compartió sus conocimientos, y les explicó a las personas cómo era la vida con igualdad y humildad. Desde aquel día se convirtió en un ejemplo a seguir y todo un símbolo para los pueblos precolombinos.",
+                        "imagen": "https://mexicolindoyquerido.com.mx/mexico2/images/IMAGENES_PARA_TEMPLATE/mitos_y_leyendas/P07_leyenda_hazaas_De_quetzalcoatl.png"
+                    },
+                    "lista_dioses": {
+                        "Dios Quetzalcóatl": {
+                            "detalle": "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba. Es una especie de serpiente con plumas y a la vez con forma humana. \n\nDios de la vida, la luz, la fertilidad, la civilización y el conocimiento. En ocasiones, también señor de los vientos y regidor del Oeste.",
+                            "imagen": "https://images.vexels.com/media/users/3/174065/preview2/182671fa6926155bb98983243aefecc7-quetzalcoatl-dios-azteca-conjunto-de-vectores.jpg"
+                        },
+                        "Dios Coatlicue": {
+                            "detalle": "Al igual que su antecesor, Coatlicue tenía forma de serpiente (ésta sí de manera integral) con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses, así como la guía espiritual del renacimiento.",
+                            "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/20041229-Coatlicue_%28Museo_Nacional_de_Antropolog%C3%ADa%29_MQ-3.jpg/1200px-20041229-Coatlicue_%28Museo_Nacional_de_Antropolog%C3%ADa%29_MQ-3.jpg"
+                        }
+                    }
+                },
+                
+                "ubicacion": {
+                    "gobernante": {
+                        "nombre": "Cuauhtémoc",
+                        "imagen": "https://alchetron.com/cdn/cuauhtmoc-96b031bf-8523-4d37-959d-c7a1f72e3f4-resize-750.jpeg",
+                        "detalle": "Desde el año 1496 hasta1525. \n\nÚltimo emperador azteca, llamado por los españoles Guatimocín. Sucesor de Moctezuma II y de Cuitláhuac, defendió tenazmente la ciudad de Tenochtitlán, capital del Imperio azteca, del asedio de las tropas españolas al mando de Hernán Cortés. La caída de la ciudad y la captura y posterior ejecución de Cuauhtémoc puso fin a una de las más brillantes civilizaciones precolombinas."
+                    },
+                    "ubicacion": {
+                        "nombre": "Region Aztecas",
+                        "detalle": "Los aztecas se situaron en el valle de México, es decir, en la zona central de México, siendo su capital Tenochtitlán (actual México D.C.), la ciudad lago; abarcaba además los territorios de Teotihuacán y por el sur llegaron hasta Palenque.",
+                        "imagen": "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png"
+                    },
+                    "organizacion_territorial": {
+                        
+                    }
+                    
+                }
+            }
+        }    
     ]
 }
