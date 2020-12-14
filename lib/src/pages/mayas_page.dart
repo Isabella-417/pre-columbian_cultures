@@ -3,8 +3,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:nuestros_ancestros/src/tabs/dioses.dart';
 import 'package:nuestros_ancestros/src/tabs/estructura_social.dart';
+import 'package:nuestros_ancestros/src/tabs/laberinto.dart';
 import 'package:nuestros_ancestros/src/tabs/ubicacion.dart';
 import 'package:nuestros_ancestros/src/utils/cartas_view.dart';
+import 'package:nuestros_ancestros/src/utils/laberinto_datos.dart';
 import 'package:nuestros_ancestros/src/utils/organizar_datos.dart';
 
 class MayasPage extends StatelessWidget {
@@ -45,9 +47,11 @@ class MayasPage extends StatelessWidget {
                   Map<dynamic, dynamic> datosUbicacion = jsonDecode(snapshot.data)["ubicacion"];
                   List<CartasView> ubicacion  = organizarDatosUbicacion(datosUbicacion);
 
+                  Map<dynamic, dynamic> datosLaberinto = jsonDecode(snapshot.data)["laberinto"];
+                  LaberintoDatos laberinto =  organizarDatosLaberinto(datosLaberinto);
 
                   return TabBarView(
-                    children: [EstructuraSocial(datosCultura: sociedad), Dioses(datosCultura: dioses), Ubicacion(datosCultura: ubicacion), Text("reto")],
+                    children: [EstructuraSocial(datosCultura: sociedad), Dioses(datosCultura: dioses), Ubicacion(datosCultura: ubicacion), Laberinto(laberintoDatos: laberinto,)],
                   );
                 }
               })),

@@ -1,4 +1,5 @@
 import 'package:nuestros_ancestros/src/utils/cartas_view.dart';
+import 'package:nuestros_ancestros/src/utils/laberinto_datos.dart';
 
 organizarDatosDioses(Map<dynamic, dynamic> informacion) {
   List<CartasView> cards = [];
@@ -39,6 +40,11 @@ organizarDatosSociedad(Map<dynamic, dynamic> informacion) {
 
   return cards;
 }
+
+organizarDatosLaberinto(Map<dynamic, dynamic> informacion) {
+  return new LaberintoDatos(informacion["imagen_personaje"], informacion["imagen_meta"], informacion["filas"], informacion["columnas"], informacion["mensaje_meta"]);
+}
+
 
 organizarDatosUbicacion(Map<dynamic, dynamic> informacion) {
   List<CartasView> cards = [];

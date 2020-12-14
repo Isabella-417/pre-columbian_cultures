@@ -5,6 +5,13 @@
             "ruta": "mayas",
             "imagen_menu": "https://image.freepik.com/vector-gratis/postal-cultura-maya_24640-15679.jpg",
             "tablero": {
+                "laberinto" :{
+                    "imagen_personaje" : "https://images.vexels.com/media/users/3/151139/isolated/preview/5c41ab5e1f0418b104d344222a87b0f0-cabeza-de-mujer-nativa-americana-by-vexels.png",
+                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/2230/premium/2230029.png",
+                    "filas" : 12,
+                    "columnas" : 6,
+                    "mensaje_meta" : "Lograste"
+                },
                 "sociedad": {
                     "introduccion": {
                         "nombre": "Sociedad Maya",
@@ -89,6 +96,13 @@
             "ruta": "incas",
             "imagen_menu": "https://lh3.googleusercontent.com/VyXtO5LqAkRG1Ku58w2_PJSW2oU-P4R_DI6KnGpujBZfo6Qreu1RzQ4m7bt0a0bXrIPF=s85",
             "tablero": {
+                "laberinto" :{
+                    "imagen_personaje" : "https://image.flaticon.com/icons/png/512/808/808433.png",
+                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/1506/1506339.png",
+                    "filas" : 12,
+                    "columnas" : 6,
+                    "mensaje_meta" : "Lograste"
+                },
                 "sociedad": {
                     "introduccion": {
                         "nombre": "Imperio Inca",
@@ -175,8 +189,15 @@
         {
             "nombre": "Aztecas",
             "ruta": "aztecas",
-            "imagen_menu": "",
+            "imagen_menu": "https://st.depositphotos.com/1007954/1224/v/950/depositphotos_12243344-stock-illustration-aztec-symbols.jpg",
             "tablero": {
+                "laberinto" :{
+                    "imagen_personaje" : "https://image.flaticon.com/icons/png/512/808/808433.png",
+                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/1506/1506339.png",
+                    "filas" : 12,
+                    "columnas" : 6,
+                    "mensaje_meta" : "Lograste"
+                },
                 "sociedad": {
                     "introduccion": {
                         "nombre": "Imperio Azteca",

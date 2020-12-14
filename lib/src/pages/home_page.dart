@@ -35,11 +35,12 @@ class HomePage extends StatelessWidget {
         element["tablero"]["sociedad"],
         element["tablero"]["dioses"],
         element["imagen_menu"],
+        element["tablero"]["laberinto"]
       ));
 
       final widgetTemp = ListTile(
         title: Text(element["nombre"]),
-        leading: Icon(Icons.account_box, color: Colors.blue),
+        leading: Image.network(element["imagen_menu"]),
         trailing: Icon(Icons.keyboard_arrow_right, color: Colors.blue),
         onTap: () {
           Navigator.pushNamed(context, element["ruta"]);
