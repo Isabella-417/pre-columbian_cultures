@@ -97,8 +97,8 @@
             "imagen_menu": "https://lh3.googleusercontent.com/VyXtO5LqAkRG1Ku58w2_PJSW2oU-P4R_DI6KnGpujBZfo6Qreu1RzQ4m7bt0a0bXrIPF=s85",
             "tablero": {
                 "laberinto" :{
-                    "imagen_personaje" : "https://image.flaticon.com/icons/png/512/808/808433.png",
-                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/1506/1506339.png",
+                    "imagen_personaje" : "https://i.postimg.cc/fLNPFhgN/statue.png",
+                    "imagen_meta" : "https://t4.ftcdn.net/jpg/01/91/28/69/240_F_191286911_OqQGbXpmD7xjThnomYSxpQxDr4fXCnsQ.jpg",
                     "filas" : 12,
                     "columnas" : 6,
                     "mensaje_meta" : "Lograste"
@@ -192,8 +192,8 @@
             "imagen_menu": "https://st.depositphotos.com/1007954/1224/v/950/depositphotos_12243344-stock-illustration-aztec-symbols.jpg",
             "tablero": {
                 "laberinto" :{
-                    "imagen_personaje" : "https://image.flaticon.com/icons/png/512/808/808433.png",
-                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/1506/1506339.png",
+                    "imagen_personaje" : "https://i.postimg.cc/5NHtq6jT/Azteca.png",
+                    "imagen_meta" : "https://i.postimg.cc/KcVhm4jG/quetzalcoatl.png",
                     "filas" : 12,
                     "columnas" : 6,
                     "mensaje_meta" : "Lograste"
