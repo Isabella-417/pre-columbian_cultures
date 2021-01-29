@@ -9,8 +9,11 @@ import 'package:nuestros_ancestros/src/providers/menu_provider.dart';
 Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
     '/': (BuildContext context) => HomePage(),
-    'mayas': (BuildContext context)=>  MayasPage(datosCultura: obtenerInformacionCultura("Mayas")) ,
-    'incas': (BuildContext context) => IncasPage(datosCultura: obtenerInformacionCultura("Incas")),
-    'aztecas': (BuildContext context) => AztecasPage(datosCultura: obtenerInformacionCultura("Aztecas"))
+    'mayas': (BuildContext context) =>
+        MayasPage(datosCultura: obtenerInformacionCultura("Mayas")),
+    'incas': (BuildContext context) =>
+        IncasPage(datosCultura: obtenerInformacionCultura("Incas")),
+    'aztecas': (BuildContext context) =>
+        AztecasPage(datosCultura: obtenerInformacionCultura("Aztecas"))
   };
 }

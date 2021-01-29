@@ -1,20 +1,20 @@
 class LaberintoDatos {
-  String imagen_personaje;
-  String imagen_meta;
+  String imagenPersonaje;
+  String imagenMeta;
   int filas;
   int columnas;
-  String mensaje_meta;
+  String mensajeMeta;
 
-  LaberintoDatos(String imagen_personaje,String imagen_meta,int filas,int columnas,String mensaje_meta) {
-    this.imagen_personaje = imagen_personaje;
-    this.imagen_meta = imagen_meta;
+  LaberintoDatos(String imagenPersonaje,String imagenMeta,int filas,int columnas,String mensajeMeta) {
+    this.imagenPersonaje = imagenPersonaje;
+    this.imagenMeta = imagenMeta;
     this.filas = filas;
     this.columnas = columnas;
-    this.mensaje_meta = mensaje_meta;
+    this.mensajeMeta = mensajeMeta;
   }
 
   @override
   String toString() {
-    return '"nombre" : { imagen_personaje": $imagen_personaje, "imagen_meta": $imagen_meta,  "filas": $filas, "columnas": $columnas, "mensaje_meta": $mensaje_meta}';
+    return '"nombre" : { imagen_personaje": $imagenPersonaje, "imagen_meta": $imagenMeta,  "filas": $filas, "columnas": $columnas, "mensaje_meta": $mensajeMeta}';
   }
 }

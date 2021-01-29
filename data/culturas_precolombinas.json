@@ -5,12 +5,12 @@
             "ruta": "mayas",
             "imagen_menu": "https://image.freepik.com/vector-gratis/postal-cultura-maya_24640-15679.jpg",
             "tablero": {
-                "laberinto" :{
-                    "imagen_personaje" : "https://images.vexels.com/media/users/3/151139/isolated/preview/5c41ab5e1f0418b104d344222a87b0f0-cabeza-de-mujer-nativa-americana-by-vexels.png",
-                    "imagen_meta" : "https://image.flaticon.com/icons/png/512/2230/premium/2230029.png",
-                    "filas" : 12,
-                    "columnas" : 6,
-                    "mensaje_meta" : "Lograste"
+                "laberinto": {
+                    "imagen_personaje": "https://images.vexels.com/media/users/3/151139/isolated/preview/5c41ab5e1f0418b104d344222a87b0f0-cabeza-de-mujer-nativa-americana-by-vexels.png",
+                    "imagen_meta": "https://image.flaticon.com/icons/png/512/2230/premium/2230029.png",
+                    "filas": 12,
+                    "columnas": 6,
+                    "mensaje_meta": "Lograste"
                 },
                 "sociedad": {
                     "introduccion": {
@@ -90,18 +90,17 @@
                 }
             }
         },
-
         {
             "nombre": "Incas",
             "ruta": "incas",
-            "imagen_menu": "https://lh3.googleusercontent.com/VyXtO5LqAkRG1Ku58w2_PJSW2oU-P4R_DI6KnGpujBZfo6Qreu1RzQ4m7bt0a0bXrIPF=s85",
+            "imagen_menu": "https://i.pinimg.com/originals/03/32/a3/0332a32b2a1ebf50b3a82fcb9e117735.jpg",
             "tablero": {
-                "laberinto" :{
-                    "imagen_personaje" : "https://i.postimg.cc/fLNPFhgN/statue.png",
-                    "imagen_meta" : "https://t4.ftcdn.net/jpg/01/91/28/69/240_F_191286911_OqQGbXpmD7xjThnomYSxpQxDr4fXCnsQ.jpg",
-                    "filas" : 12,
-                    "columnas" : 6,
-                    "mensaje_meta" : "Lograste"
+                "laberinto": {
+                    "imagen_personaje": "https://i.postimg.cc/fLNPFhgN/statue.png",
+                    "imagen_meta": "https://t4.ftcdn.net/jpg/01/91/28/69/240_F_191286911_OqQGbXpmD7xjThnomYSxpQxDr4fXCnsQ.jpg",
+                    "filas": 12,
+                    "columnas": 6,
+                    "mensaje_meta": "Lograste"
                 },
                 "sociedad": {
                     "introduccion": {
@@ -185,18 +184,17 @@
                 }
             }
         },
-
         {
             "nombre": "Aztecas",
             "ruta": "aztecas",
             "imagen_menu": "https://st.depositphotos.com/1007954/1224/v/950/depositphotos_12243344-stock-illustration-aztec-symbols.jpg",
             "tablero": {
-                "laberinto" :{
-                    "imagen_personaje" : "https://i.postimg.cc/5NHtq6jT/Azteca.png",
-                    "imagen_meta" : "https://i.postimg.cc/KcVhm4jG/quetzalcoatl.png",
-                    "filas" : 12,
-                    "columnas" : 6,
-                    "mensaje_meta" : "Lograste"
+                "laberinto": {
+                    "imagen_personaje": "https://i.postimg.cc/5NHtq6jT/Azteca.png",
+                    "imagen_meta": "https://i.postimg.cc/KcVhm4jG/quetzalcoatl.png",
+                    "filas": 12,
+                    "columnas": 6,
+                    "mensaje_meta": "Lograste"
                 },
                 "sociedad": {
                     "introduccion": {
@@ -249,7 +247,6 @@
                         }
                     }
                 },
-                
                 "ubicacion": {
                     "gobernante": {
                         "nombre": "Cuauhtémoc",
@@ -261,12 +258,9 @@
                         "detalle": "Los aztecas se situaron en el valle de México, es decir, en la zona central de México, siendo su capital Tenochtitlán (actual México D.C.), la ciudad lago; abarcaba además los territorios de Teotihuacán y por el sur llegaron hasta Palenque.",
                         "imagen": "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png"
                     },
-                    "organizacion_territorial": {
-                        
-                    }
-                    
+                    "organizacion_territorial": {}
                 }
             }
-        }    
+        }
     ]
 }

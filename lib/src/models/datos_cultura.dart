@@ -8,7 +8,7 @@ class DatosCultura {
   Map<String, dynamic> sociedad;
   Map<String, dynamic> laberinto;
 
-  DatosCultura(nombre, ubicacion, sociedad, dioses, imagenMenu,laberinto) {
+  DatosCultura(nombre, ubicacion, sociedad, dioses, imagenMenu, laberinto) {
     this.nombre = nombre;
     this.ubicacion = ubicacion;
     this.sociedad = sociedad;

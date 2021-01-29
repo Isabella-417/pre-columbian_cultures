@@ -10,5 +10,4 @@ class CartasView {
     this.imagenUrl = imagenUrl;
     this.otros = otros;
   }
-  
 }
