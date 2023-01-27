@@ -1,11 +1,16 @@
-# Nuestros Ancestros
+# Pre-columbian Cultures
 
-Proyecto de Flutter básico despliega información referente a culturas precolombinas usando 
-widges como: ListView y Tab.
+Basic project using Flutter, it displays information about pre-columbian cultures using: ListView and Tab.
 
-Obtiene información en base a un archivo json almacena datos con ayuda de **shared_preferences**.
-Con juego interactivo que incluye dependencia **maze^2.0.1**
+It gets information through a JSON, use of **shared_preferences**. It has an interactive game that includes **maze^2.0.1** dependency.
 
 ## Getting Started
-* flutter pub get -- carga dependecias necesarias
-* flutter run
+
+* Load necessary dependencies
+```
+flutter pub get
+```
+* Run project
+```
+flutter pub get
+```
